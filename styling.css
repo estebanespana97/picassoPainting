@@ -20,7 +20,7 @@
   align-items: center;
   justify-content: center;
   border-radius: 20px;
-  background-color: pink;
+  background-color: lightblue;
   grid-area: box1;
 }
 
@@ -29,7 +29,7 @@
   align-items: center;
   justify-content: center;
   border-radius: 20px;
-  background-color: red;
+  background-color: lightblue;
   text-align: center;
   grid-area: box2;
 }
@@ -38,7 +38,7 @@
   align-items: center;
   justify-content: center;
   border-radius: 20px;
-  background-color: maroon;
+  background-color: lightblue;
   text-align: center;
   grid-area: box3;
 }
@@ -85,18 +85,12 @@
   z-index: 1;
 }
 
-.bigPinkCircle{
-  border-radius: 50%;
+#pinkCircle{
   background-color: hotpink;
-  position: absolute;
-  width: 75px;
-  height: 75px;
   top: 10%;
   left: 29%;
-  z-index: 1;
 }
-
-.bigYellowCircle{
+.bigCircle{
   border-radius: 50%;
   background-color: yellow;
   position: absolute;
